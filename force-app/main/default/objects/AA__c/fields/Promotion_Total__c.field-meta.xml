@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Promotion_Total__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>sum count child records promotion values</inlineHelpText>
+    <label>Promotion Total</label>
+    <summarizedField>BB__c.Promotions__c</summarizedField>
+    <summaryForeignKey>BB__c.AA__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

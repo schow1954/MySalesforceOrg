@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MFM_team__c</fullName>
+    <externalId>false</externalId>
+    <label>MFM team</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NTMK</fullName>
+                <default>false</default>
+                <label>NTMK</label>
+            </value>
+            <value>
+                <fullName>MMPJ</fullName>
+                <default>false</default>
+                <label>MMPJ</label>
+            </value>
+            <value>
+                <fullName>Whiskies</fullName>
+                <default>false</default>
+                <label>Whiskies</label>
+            </value>
+            <value>
+                <fullName>Wine</fullName>
+                <default>false</default>
+                <label>Wine</label>
+            </value>
+            <value>
+                <fullName>Innovation and White Spirits</fullName>
+                <default>false</default>
+                <label>Innovation and White Spirits</label>
+            </value>
+            <value>
+                <fullName>Luxe</fullName>
+                <default>false</default>
+                <label>Luxe</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>PR</fullName>
+                <default>false</default>
+                <label>PR</label>
+            </value>
+            <value>
+                <fullName>BA</fullName>
+                <default>false</default>
+                <label>BA</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>OFF</fullName>
+                <default>false</default>
+                <label>OFF</label>
+            </value>
+            <value>
+                <fullName>Procurement</fullName>
+                <default>false</default>
+                <label>Procurement</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Cognac and White spirits</fullName>
+                <default>false</default>
+                <label>Cognac and White spirits</label>
+            </value>
+            <value>
+                <fullName>Merchandising</fullName>
+                <default>false</default>
+                <label>Merchandising</label>
+            </value>
+            <value>
+                <fullName>Bar&amp;Restaurant</fullName>
+                <default>false</default>
+                <label>Bar&amp;Restaurant</label>
+            </value>
+            <value>
+                <fullName>KTV</fullName>
+                <default>false</default>
+                <label>KTV</label>
+            </value>
+            <value>
+                <fullName>IHBR</fullName>
+                <default>false</default>
+                <label>IHBR</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>East</fullName>
+                <default>false</default>
+                <label>East</label>
+            </value>
+            <value>
+                <fullName>North</fullName>
+                <default>false</default>
+                <label>North</label>
+            </value>
+            <value>
+                <fullName>North West</fullName>
+                <default>false</default>
+                <label>North West</label>
+            </value>
+            <value>
+                <fullName>South</fullName>
+                <default>false</default>
+                <label>South</label>
+            </value>
+            <value>
+                <fullName>South West</fullName>
+                <default>false</default>
+                <label>South West</label>
+            </value>
+            <value>
+                <fullName>IT-PC</fullName>
+                <default>false</default>
+                <label>IT-PC</label>
+            </value>
+            <value>
+                <fullName>IT-HQ</fullName>
+                <default>false</default>
+                <label>IT-HQ</label>
+            </value>
+            <value>
+                <fullName>Brand Marketing</fullName>
+                <default>false</default>
+                <label>Brand Marketing</label>
+            </value>
+            <value>
+                <fullName>Sales Rep</fullName>
+                <default>false</default>
+                <label>Sales Rep</label>
+            </value>
+            <value>
+                <fullName>Trade Marketing</fullName>
+                <default>false</default>
+                <label>Trade Marketing</label>
+            </value>
+            <value>
+                <fullName>Trade Operation</fullName>
+                <default>false</default>
+                <label>Trade Operation</label>
+            </value>
+            <value>
+                <fullName>North Premium</fullName>
+                <default>false</default>
+                <label>North Premium</label>
+            </value>
+            <value>
+                <fullName>Central Premium</fullName>
+                <default>false</default>
+                <label>Central Premium</label>
+            </value>
+            <value>
+                <fullName>Northwest Premium</fullName>
+                <default>false</default>
+                <label>Northwest Premium</label>
+            </value>
+            <value>
+                <fullName>East Premium</fullName>
+                <default>false</default>
+                <label>East Premium</label>
+            </value>
+            <value>
+                <fullName>South Premium</fullName>
+                <default>false</default>
+                <label>South Premium</label>
+            </value>
+            <value>
+                <fullName>Southwest Premium</fullName>
+                <default>false</default>
+                <label>Southwest Premium</label>
+            </value>
+            <value>
+                <fullName>Sales Rep1</fullName>
+                <default>false</default>
+                <label>Sales Rep1</label>
+            </value>
+            <value>
+                <fullName>Sales Rep2</fullName>
+                <default>false</default>
+                <label>Sales Rep2</label>
+            </value>
+            <value>
+                <fullName>Sales Rep3</fullName>
+                <default>false</default>
+                <label>Sales Rep3</label>
+            </value>
+            <value>
+                <fullName>Sales Rep4</fullName>
+                <default>false</default>
+                <label>Sales Rep4</label>
+            </value>
+            <value>
+                <fullName>Sales Rep5</fullName>
+                <default>false</default>
+                <label>Sales Rep5</label>
+            </value>
+            <value>
+                <fullName>Sales Rep6</fullName>
+                <default>false</default>
+                <label>Sales Rep6</label>
+            </value>
+            <value>
+                <fullName>Sales Rep7</fullName>
+                <default>false</default>
+                <label>Sales Rep7</label>
+            </value>
+            <value>
+                <fullName>Sales Rep8</fullName>
+                <default>false</default>
+                <label>Sales Rep8</label>
+            </value>
+            <value>
+                <fullName>IH</fullName>
+                <default>false</default>
+                <label>IH</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>DC Online</fullName>
+                <default>false</default>
+                <label>DC Online</label>
+            </value>
+            <value>
+                <fullName>Retail Store</fullName>
+                <default>false</default>
+                <label>Retail Store</label>
+            </value>
+            <value>
+                <fullName>CFF</fullName>
+                <default>false</default>
+                <label>CFF</label>
+            </value>
+            <value>
+                <fullName>Martell</fullName>
+                <default>false</default>
+                <label>Martell</label>
+            </value>
+            <value>
+                <fullName>Champagne</fullName>
+                <default>false</default>
+                <label>Champagne</label>
+            </value>
+            <value>
+                <fullName>CBL</fullName>
+                <default>false</default>
+                <label>CBL</label>
+            </value>
+            <value>
+                <fullName>Havana</fullName>
+                <default>false</default>
+                <label>Havana</label>
+            </value>
+            <value>
+                <fullName>TAC</fullName>
+                <default>false</default>
+                <label>TAC</label>
+            </value>
+            <value>
+                <fullName>Brand Marketing 2</fullName>
+                <default>false</default>
+                <label>Brand Marketing 2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

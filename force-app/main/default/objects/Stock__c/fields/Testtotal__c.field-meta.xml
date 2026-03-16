@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testtotal__c</fullName>
+    <externalId>false</externalId>
+    <label>Testtotal</label>
+    <summarizedField>K_Line__c.Closing__c</summarizedField>
+    <summaryFilterItems>
+        <field>K_Line__c.Closing__c</field>
+        <operation>notEqual</operation>
+        <value>-10</value>
+    </summaryFilterItems>
+    <summaryForeignKey>K_Line__c.Stock_Name__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

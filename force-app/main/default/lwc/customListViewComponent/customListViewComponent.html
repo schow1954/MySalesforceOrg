@@ -1,0 +1,25 @@
+<template>  
+    <lightning-card title = "{Title}">  
+        <!--<lightning-button label="New" slot="actions" onclick = {createNew}></lightning-button>-->
+        <!--<lightning-input type = "search" onblur = {handleKeyChange} class = "slds-m-bottom_small" label = "Search" >  
+        </lightning-input>-->
+        <template if:true = {listRecs}>  
+            <div style="height: 300px;">  
+                <lightning-datatable key-field="Id"  
+                                        data={listRecs}  
+                                        columns={columns}  
+                                        hide-checkbox-column="true"  
+                                        show-row-number-column="true"
+                                        default-sort-direction={defaultSortDirection}
+                                        sorted-direction={sortDirection}
+                                        sorted-by={sortedBy}
+                                        onsort={onHandleSort}
+                                        onrowaction={handleRowAction}>  
+                </lightning-datatable>  
+            </div>                   
+        </template>  
+        <template if:true = {error}>  
+            {error}>  
+        </template>  
+    </lightning-card>  
+</template>

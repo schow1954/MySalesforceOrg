@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Team__c</fullName>
+    <externalId>false</externalId>
+    <label>Sales Team</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>CFF</fullName>
+                <default>false</default>
+                <label>CFF</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model NJ</fullName>
+                <default>false</default>
+                <label>Premium On-D Model NJ</label>
+            </value>
+            <value>
+                <fullName>HQ-VIP Sales</fullName>
+                <default>false</default>
+                <label>HQ-VIP Sales</label>
+            </value>
+            <value>
+                <fullName>HQ-PG</fullName>
+                <default>false</default>
+                <label>HQ-PG</label>
+            </value>
+            <value>
+                <fullName>Premium-OFF</fullName>
+                <default>false</default>
+                <label>Premium-OFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZJ</fullName>
+                <default>false</default>
+                <label>Prestige-ZJ</label>
+            </value>
+            <value>
+                <fullName>IT-HQ</fullName>
+                <default>false</default>
+                <label>IT-HQ</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ ON</fullName>
+                <default>false</default>
+                <label>Prestige-BJ ON</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ OFF&amp;CR</fullName>
+                <default>false</default>
+                <label>Prestige-BJ OFF&amp;CR</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hainan</fullName>
+                <default>false</default>
+                <label>Prestige-Hainan</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model XA</fullName>
+                <default>false</default>
+                <label>Premium On-D Model XA</label>
+            </value>
+            <value>
+                <fullName>HQ-Lab</fullName>
+                <default>false</default>
+                <label>HQ-Lab</label>
+            </value>
+            <value>
+                <fullName>Prestige-Anhui North</fullName>
+                <default>false</default>
+                <label>Prestige-Anhui North</label>
+            </value>
+            <value>
+                <fullName>Prestige-SG</fullName>
+                <default>false</default>
+                <label>Prestige-SG</label>
+            </value>
+            <value>
+                <fullName>Prestige-QY</fullName>
+                <default>false</default>
+                <label>Prestige-QY</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hebei South</fullName>
+                <default>false</default>
+                <label>Prestige-Hebei South</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hebei North</fullName>
+                <default>false</default>
+                <label>Prestige-Hebei North</label>
+            </value>
+            <value>
+                <fullName>Premium-HeN/ShX/G/N/Q/XJ MOT</fullName>
+                <default>false</default>
+                <label>Premium-HeN/ShX/G/N/Q/XJ MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-JX North</fullName>
+                <default>false</default>
+                <label>Prestige-JX North</label>
+            </value>
+            <value>
+                <fullName>Premium-HQ MAC</fullName>
+                <default>false</default>
+                <label>Premium-HQ MAC</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model SH</fullName>
+                <default>false</default>
+                <label>Premium On-D Model SH</label>
+            </value>
+            <value>
+                <fullName>Premium-XM MOT</fullName>
+                <default>false</default>
+                <label>Premium-XM MOT</label>
+            </value>
+            <value>
+                <fullName>North-WS</fullName>
+                <default>false</default>
+                <label>North-WS</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model HZ</fullName>
+                <default>false</default>
+                <label>Premium On-D Model HZ</label>
+            </value>
+            <value>
+                <fullName>Premium-NW MOT</fullName>
+                <default>false</default>
+                <label>Premium-NW MOT</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model CD</fullName>
+                <default>false</default>
+                <label>Premium On-D Model CD</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model WH</fullName>
+                <default>false</default>
+                <label>Premium On-D Model WH</label>
+            </value>
+            <value>
+                <fullName>Premium On-ID Model West</fullName>
+                <default>false</default>
+                <label>Premium On-ID Model West</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model CQ</fullName>
+                <default>false</default>
+                <label>Premium On-D Model CQ</label>
+            </value>
+            <value>
+                <fullName>Contractor-Central</fullName>
+                <default>false</default>
+                <label>Contractor-Central</label>
+            </value>
+            <value>
+                <fullName>Premium-HQ MOT</fullName>
+                <default>false</default>
+                <label>Premium-HQ MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-GDE MOT</fullName>
+                <default>false</default>
+                <label>Prestige-GDE MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-GDW MOT</fullName>
+                <default>false</default>
+                <label>Prestige-GDW MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-GDW VIP</fullName>
+                <default>false</default>
+                <label>Prestige-GDW VIP</label>
+            </value>
+            <value>
+                <fullName>Prestige-GGZ MOT</fullName>
+                <default>false</default>
+                <label>Prestige-GGZ MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-GM/SS OFF</fullName>
+                <default>false</default>
+                <label>Prestige-GM/SS OFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-Guangxi</fullName>
+                <default>false</default>
+                <label>Prestige-Guangxi</label>
+            </value>
+            <value>
+                <fullName>Prestige-Guangxi North</fullName>
+                <default>false</default>
+                <label>Prestige-Guangxi North</label>
+            </value>
+            <value>
+                <fullName>Prestige-Guangxi South</fullName>
+                <default>false</default>
+                <label>Prestige-Guangxi South</label>
+            </value>
+            <value>
+                <fullName>Prestige-GZ VIP</fullName>
+                <default>false</default>
+                <label>Prestige-GZ VIP</label>
+            </value>
+            <value>
+                <fullName>Prestige-GZOFF</fullName>
+                <default>false</default>
+                <label>Prestige-GZOFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-GZON</fullName>
+                <default>false</default>
+                <label>Prestige-GZON</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hunan North</fullName>
+                <default>false</default>
+                <label>Prestige-Hunan North</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hunan South</fullName>
+                <default>false</default>
+                <label>Prestige-Hunan South</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hunan/Guangxi</fullName>
+                <default>false</default>
+                <label>Prestige-Hunan/Guangxi</label>
+            </value>
+            <value>
+                <fullName>Prestige-HY/HZ</fullName>
+                <default>false</default>
+                <label>Prestige-HY/HZ</label>
+            </value>
+            <value>
+                <fullName>Prestige-JM/HN</fullName>
+                <default>false</default>
+                <label>Prestige-JM/HN</label>
+            </value>
+            <value>
+                <fullName>Prestige-JM/ZQ</fullName>
+                <default>false</default>
+                <label>Prestige-JM/ZQ</label>
+            </value>
+            <value>
+                <fullName>Prestige-QY/SG</fullName>
+                <default>false</default>
+                <label>Prestige-QY/SG</label>
+            </value>
+            <value>
+                <fullName>Prestige-QY/SG/HN</fullName>
+                <default>false</default>
+                <label>Prestige-QY/SG/HN</label>
+            </value>
+            <value>
+                <fullName>Prestige-SD northwest&amp;QD</fullName>
+                <default>false</default>
+                <label>Prestige-SD northwest&amp;QD</label>
+            </value>
+            <value>
+                <fullName>Prestige-GCS VIP</fullName>
+                <default>false</default>
+                <label>Prestige-GCS VIP</label>
+            </value>
+            <value>
+                <fullName>Prestige-South MOT</fullName>
+                <default>false</default>
+                <label>Prestige-South MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-HBNM MOT</fullName>
+                <default>false</default>
+                <label>Premium-HBNM MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-HEB MAC</fullName>
+                <default>false</default>
+                <label>Premium-HEB MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-HEB MOT</fullName>
+                <default>false</default>
+                <label>Premium-HEB MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-JN MAC</fullName>
+                <default>false</default>
+                <label>Premium-JN MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-JN MOT</fullName>
+                <default>false</default>
+                <label>Premium-JN MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-North EC</fullName>
+                <default>false</default>
+                <label>Premium-North EC</label>
+            </value>
+            <value>
+                <fullName>Premium-QD MAC</fullName>
+                <default>false</default>
+                <label>Premium-QD MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-QD MOT</fullName>
+                <default>false</default>
+                <label>Premium-QD MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-SY MAC</fullName>
+                <default>false</default>
+                <label>Premium-SY MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-SY MOT</fullName>
+                <default>false</default>
+                <label>Premium-SY MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-TJ MAC</fullName>
+                <default>false</default>
+                <label>Premium-TJ MAC</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Suzhou</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Suzhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Wuxi</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Wuxi</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Xuzhou</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Xuzhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Yangzhou</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Yangzhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-SH Bar</fullName>
+                <default>false</default>
+                <label>Prestige-SH Bar</label>
+            </value>
+            <value>
+                <fullName>Prestige-SH FKTV</fullName>
+                <default>false</default>
+                <label>Prestige-SH FKTV</label>
+            </value>
+            <value>
+                <fullName>Prestige-SH KTV</fullName>
+                <default>false</default>
+                <label>Prestige-SH KTV</label>
+            </value>
+            <value>
+                <fullName>Prestige-SH WR</fullName>
+                <default>false</default>
+                <label>Prestige-SH WR</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZhejiangHangzhou</fullName>
+                <default>false</default>
+                <label>Prestige-ZhejiangHangzhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZhejiangJiahu</fullName>
+                <default>false</default>
+                <label>Prestige-ZhejiangJiahu</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZhejiangJinqu</fullName>
+                <default>false</default>
+                <label>Prestige-ZhejiangJinqu</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZhejiangNingbo</fullName>
+                <default>false</default>
+                <label>Prestige-ZhejiangNingbo</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZhejiangNingboWaiwei</fullName>
+                <default>false</default>
+                <label>Prestige-ZhejiangNingboWaiwei</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZhejiangShaoxing</fullName>
+                <default>false</default>
+                <label>Prestige-ZhejiangShaoxing</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZhejiangTaizhou</fullName>
+                <default>false</default>
+                <label>Prestige-ZhejiangTaizhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZhejiangWenzhou</fullName>
+                <default>false</default>
+                <label>Prestige-ZhejiangWenzhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZJ Central</fullName>
+                <default>false</default>
+                <label>Prestige-ZJ Central</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZJ North</fullName>
+                <default>false</default>
+                <label>Prestige-ZJ North</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZJ South</fullName>
+                <default>false</default>
+                <label>Prestige-ZJ South</label>
+            </value>
+            <value>
+                <fullName>DBR/KUNPENG</fullName>
+                <default>false</default>
+                <label>DBR/KUNPENG</label>
+            </value>
+            <value>
+                <fullName>East-Others</fullName>
+                <default>false</default>
+                <label>East-Others</label>
+            </value>
+            <value>
+                <fullName>Premium-TJ MOT</fullName>
+                <default>false</default>
+                <label>Premium-TJ MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-TY MAC</fullName>
+                <default>false</default>
+                <label>Premium-TY MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-TY MOT</fullName>
+                <default>false</default>
+                <label>Premium-TY MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ Bar</fullName>
+                <default>false</default>
+                <label>Prestige-BJ Bar</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ CR</fullName>
+                <default>false</default>
+                <label>Prestige-BJ CR</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ CR TOT</fullName>
+                <default>false</default>
+                <label>Prestige-BJ CR TOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ KTV</fullName>
+                <default>false</default>
+                <label>Prestige-BJ KTV</label>
+            </value>
+            <value>
+                <fullName>Prestige-SH OC</fullName>
+                <default>false</default>
+                <label>Prestige-SH OC</label>
+            </value>
+            <value>
+                <fullName>Prestige-SH RTB</fullName>
+                <default>false</default>
+                <label>Prestige-SH RTB</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ TOT</fullName>
+                <default>false</default>
+                <label>Prestige-BJ TOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ/TJ OFF</fullName>
+                <default>false</default>
+                <label>Prestige-BJ/TJ OFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-BJ/TJ ON</fullName>
+                <default>false</default>
+                <label>Prestige-BJ/TJ ON</label>
+            </value>
+            <value>
+                <fullName>Prestige-Dalian</fullName>
+                <default>false</default>
+                <label>Prestige-Dalian</label>
+            </value>
+            <value>
+                <fullName>Prestige-Haerbin</fullName>
+                <default>false</default>
+                <label>Prestige-Haerbin</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hebei</fullName>
+                <default>false</default>
+                <label>Prestige-Hebei</label>
+            </value>
+            <value>
+                <fullName>Prestige-HeiLongJiang</fullName>
+                <default>false</default>
+                <label>Prestige-HeiLongJiang</label>
+            </value>
+            <value>
+                <fullName>Prestige-JiLin</fullName>
+                <default>false</default>
+                <label>Prestige-JiLin</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jinan</fullName>
+                <default>false</default>
+                <label>Prestige-Jinan</label>
+            </value>
+            <value>
+                <fullName>Prestige-LXN</fullName>
+                <default>false</default>
+                <label>Prestige-LXN</label>
+            </value>
+            <value>
+                <fullName>Prestige-Neimeng</fullName>
+                <default>false</default>
+                <label>Prestige-Neimeng</label>
+            </value>
+            <value>
+                <fullName>Prestige-Qingdao</fullName>
+                <default>false</default>
+                <label>Prestige-Qingdao</label>
+            </value>
+            <value>
+                <fullName>Prestige-Qingdao OFF</fullName>
+                <default>false</default>
+                <label>Prestige-Qingdao OFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-Qingdao ON</fullName>
+                <default>false</default>
+                <label>Prestige-Qingdao ON</label>
+            </value>
+            <value>
+                <fullName>Prestige-SD southeast</fullName>
+                <default>false</default>
+                <label>Prestige-SD southeast</label>
+            </value>
+            <value>
+                <fullName>East-PG</fullName>
+                <default>false</default>
+                <label>East-PG</label>
+            </value>
+            <value>
+                <fullName>East-TMK</fullName>
+                <default>false</default>
+                <label>East-TMK</label>
+            </value>
+            <value>
+                <fullName>East-VIP</fullName>
+                <default>false</default>
+                <label>East-VIP</label>
+            </value>
+            <value>
+                <fullName>East-WS</fullName>
+                <default>false</default>
+                <label>East-WS</label>
+            </value>
+            <value>
+                <fullName>Premium-East MAC</fullName>
+                <default>false</default>
+                <label>Premium-East MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-East MOT</fullName>
+                <default>false</default>
+                <label>Premium-East MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-East Others</fullName>
+                <default>false</default>
+                <label>Premium-East Others</label>
+            </value>
+            <value>
+                <fullName>Premium-FZ MOT</fullName>
+                <default>false</default>
+                <label>Premium-FZ MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-Changchun</fullName>
+                <default>false</default>
+                <label>Prestige-Changchun</label>
+            </value>
+            <value>
+                <fullName>Premium-FZ/PT MAC</fullName>
+                <default>false</default>
+                <label>Premium-FZ/PT MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-FZ/PT MOT</fullName>
+                <default>false</default>
+                <label>Premium-FZ/PT MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-JX MOT</fullName>
+                <default>false</default>
+                <label>Premium-JX MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-QZ/JX MAC</fullName>
+                <default>false</default>
+                <label>Premium-QZ/JX MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-QZ/JX MOT</fullName>
+                <default>false</default>
+                <label>Premium-QZ/JX MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-XM/ZZ&amp;LY MOT</fullName>
+                <default>false</default>
+                <label>Premium-XM/ZZ&amp;LY MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-XM/ZZLY MOT</fullName>
+                <default>false</default>
+                <label>Premium-XM/ZZLY MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-FZ</fullName>
+                <default>false</default>
+                <label>Prestige-FZ</label>
+            </value>
+            <value>
+                <fullName>Prestige-FZ/PT</fullName>
+                <default>false</default>
+                <label>Prestige-FZ/PT</label>
+            </value>
+            <value>
+                <fullName>Prestige-JX</fullName>
+                <default>false</default>
+                <label>Prestige-JX</label>
+            </value>
+            <value>
+                <fullName>Prestige-PT</fullName>
+                <default>false</default>
+                <label>Prestige-PT</label>
+            </value>
+            <value>
+                <fullName>Prestige-QZ</fullName>
+                <default>false</default>
+                <label>Prestige-QZ</label>
+            </value>
+            <value>
+                <fullName>Prestige-QZ/JX</fullName>
+                <default>false</default>
+                <label>Prestige-QZ/JX</label>
+            </value>
+            <value>
+                <fullName>Prestige-XM</fullName>
+                <default>false</default>
+                <label>Prestige-XM</label>
+            </value>
+            <value>
+                <fullName>Prestige-Shanxi</fullName>
+                <default>false</default>
+                <label>Prestige-Shanxi</label>
+            </value>
+            <value>
+                <fullName>Prestige-Shenyang</fullName>
+                <default>false</default>
+                <label>Prestige-Shenyang</label>
+            </value>
+            <value>
+                <fullName>Prestige-Shenyang&amp;other</fullName>
+                <default>false</default>
+                <label>Prestige-Shenyang&amp;other</label>
+            </value>
+            <value>
+                <fullName>Prestige-Tianjin</fullName>
+                <default>false</default>
+                <label>Prestige-Tianjin</label>
+            </value>
+            <value>
+                <fullName>Prestige-Tianjin OFF&amp;CR</fullName>
+                <default>false</default>
+                <label>Prestige-Tianjin OFF&amp;CR</label>
+            </value>
+            <value>
+                <fullName>Prestige-Tianjin ON</fullName>
+                <default>false</default>
+                <label>Prestige-Tianjin ON</label>
+            </value>
+            <value>
+                <fullName>NW-Others</fullName>
+                <default>false</default>
+                <label>NW-Others</label>
+            </value>
+            <value>
+                <fullName>NW-TMK</fullName>
+                <default>false</default>
+                <label>NW-TMK</label>
+            </value>
+            <value>
+                <fullName>NW-VIP</fullName>
+                <default>false</default>
+                <label>NW-VIP</label>
+            </value>
+            <value>
+                <fullName>NW-WS</fullName>
+                <default>false</default>
+                <label>NW-WS</label>
+            </value>
+            <value>
+                <fullName>Premium-HB MOT</fullName>
+                <default>false</default>
+                <label>Premium-HB MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-QZ/PT MOT</fullName>
+                <default>false</default>
+                <label>Premium-QZ/PT MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-XM/ZZ&amp;LY MAC</fullName>
+                <default>false</default>
+                <label>Premium-XM/ZZ&amp;LY MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-HN MOT</fullName>
+                <default>false</default>
+                <label>Premium-HN MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-NW MAC</fullName>
+                <default>false</default>
+                <label>Premium-NW MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-SXGNQ MOT</fullName>
+                <default>false</default>
+                <label>Premium-SXGNQ MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-WH MAC</fullName>
+                <default>false</default>
+                <label>Premium-WH MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-ZZ MAC</fullName>
+                <default>false</default>
+                <label>Premium-ZZ MAC</label>
+            </value>
+            <value>
+                <fullName>Prestige-Henan</fullName>
+                <default>false</default>
+                <label>Prestige-Henan</label>
+            </value>
+            <value>
+                <fullName>Prestige-Henan North</fullName>
+                <default>false</default>
+                <label>Prestige-Henan North</label>
+            </value>
+            <value>
+                <fullName>Prestige-Henan South</fullName>
+                <default>false</default>
+                <label>Prestige-Henan South</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hubei</fullName>
+                <default>false</default>
+                <label>Prestige-Hubei</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hubei TOT</fullName>
+                <default>false</default>
+                <label>Prestige-Hubei TOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-XM/ZZ&amp;LY</fullName>
+                <default>false</default>
+                <label>Prestige-XM/ZZ&amp;LY</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZZ&amp;LY</fullName>
+                <default>false</default>
+                <label>Prestige-ZZ&amp;LY</label>
+            </value>
+            <value>
+                <fullName>North-Others</fullName>
+                <default>false</default>
+                <label>North-Others</label>
+            </value>
+            <value>
+                <fullName>North-PG</fullName>
+                <default>false</default>
+                <label>North-PG</label>
+            </value>
+            <value>
+                <fullName>North-TMK</fullName>
+                <default>false</default>
+                <label>North-TMK</label>
+            </value>
+            <value>
+                <fullName>North-VIP</fullName>
+                <default>false</default>
+                <label>North-VIP</label>
+            </value>
+            <value>
+                <fullName>Premium-BJ MAC</fullName>
+                <default>false</default>
+                <label>Premium-BJ MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-BJ MAC CEP</fullName>
+                <default>false</default>
+                <label>Premium-BJ MAC CEP</label>
+            </value>
+            <value>
+                <fullName>Premium-BJ MOT</fullName>
+                <default>false</default>
+                <label>Premium-BJ MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-CC MAC</fullName>
+                <default>false</default>
+                <label>Premium-CC MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-CC MOT</fullName>
+                <default>false</default>
+                <label>Premium-CC MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-DL MAC</fullName>
+                <default>false</default>
+                <label>Premium-DL MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-DL MOT</fullName>
+                <default>false</default>
+                <label>Premium-DL MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-HB MAC</fullName>
+                <default>false</default>
+                <label>Premium-HB MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-XA MAC</fullName>
+                <default>false</default>
+                <label>Premium-XA MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-XA MOT</fullName>
+                <default>false</default>
+                <label>Premium-XA MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-Wuhan ON</fullName>
+                <default>false</default>
+                <label>Prestige-Wuhan ON</label>
+            </value>
+            <value>
+                <fullName>Prestige-Zhengzhou</fullName>
+                <default>false</default>
+                <label>Prestige-Zhengzhou</label>
+            </value>
+            <value>
+                <fullName>Premium-CS MAC</fullName>
+                <default>false</default>
+                <label>Premium-CS MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-CS/NN MAC</fullName>
+                <default>false</default>
+                <label>Premium-CS/NN MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-DG MAC</fullName>
+                <default>false</default>
+                <label>Premium-DG MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-FS MAC</fullName>
+                <default>false</default>
+                <label>Premium-FS MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-GDE MAC</fullName>
+                <default>false</default>
+                <label>Premium-GDE MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-GDM MAC</fullName>
+                <default>false</default>
+                <label>Premium-GDM MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-GDW MAC</fullName>
+                <default>false</default>
+                <label>Premium-GDW MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-GZ MAC</fullName>
+                <default>false</default>
+                <label>Premium-GZ MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-GZ MAC CEP</fullName>
+                <default>false</default>
+                <label>Premium-GZ MAC CEP</label>
+            </value>
+            <value>
+                <fullName>Premium-HN MAC</fullName>
+                <default>false</default>
+                <label>Premium-HN MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-South MAC</fullName>
+                <default>false</default>
+                <label>Premium-South MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-SZ MAC</fullName>
+                <default>false</default>
+                <label>Premium-SZ MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-SZ MAC CEP</fullName>
+                <default>false</default>
+                <label>Premium-SZ MAC CEP</label>
+            </value>
+            <value>
+                <fullName>Premium-ZH MAC</fullName>
+                <default>false</default>
+                <label>Premium-ZH MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-ZS MAC</fullName>
+                <default>false</default>
+                <label>Premium-ZS MAC</label>
+            </value>
+            <value>
+                <fullName>Prestige-Chenzhou/Yongzhou</fullName>
+                <default>false</default>
+                <label>Prestige-Chenzhou/Yongzhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-Dongguan</fullName>
+                <default>false</default>
+                <label>Prestige-Dongguan</label>
+            </value>
+            <value>
+                <fullName>Prestige-FS OFF</fullName>
+                <default>false</default>
+                <label>Prestige-FS OFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-FS/SD OFF</fullName>
+                <default>false</default>
+                <label>Prestige-FS/SD OFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-G.CS ON</fullName>
+                <default>false</default>
+                <label>Prestige-G.CS ON</label>
+            </value>
+            <value>
+                <fullName>Prestige-G.CS TOT/ OC</fullName>
+                <default>false</default>
+                <label>Prestige-G.CS TOT/ OC</label>
+            </value>
+            <value>
+                <fullName>Prestige-FS/SD ON</fullName>
+                <default>false</default>
+                <label>Prestige-FS/SD ON</label>
+            </value>
+            <value>
+                <fullName>Prestige-SW</fullName>
+                <default>false</default>
+                <label>Prestige-SW</label>
+            </value>
+            <value>
+                <fullName>Prestige-SZ Bar</fullName>
+                <default>false</default>
+                <label>Prestige-SZ Bar</label>
+            </value>
+            <value>
+                <fullName>Prestige-SZ KTV/FKTV/CR</fullName>
+                <default>false</default>
+                <label>Prestige-SZ KTV/FKTV/CR</label>
+            </value>
+            <value>
+                <fullName>Prestige-SZ OC</fullName>
+                <default>false</default>
+                <label>Prestige-SZ OC</label>
+            </value>
+            <value>
+                <fullName>Prestige-SZ OFF</fullName>
+                <default>false</default>
+                <label>Prestige-SZ OFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-SZ OFF/CR</fullName>
+                <default>false</default>
+                <label>Prestige-SZ OFF/CR</label>
+            </value>
+            <value>
+                <fullName>Prestige-SZ ON</fullName>
+                <default>false</default>
+                <label>Prestige-SZ ON</label>
+            </value>
+            <value>
+                <fullName>Prestige-SZ VIP</fullName>
+                <default>false</default>
+                <label>Prestige-SZ VIP</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZH/ZS</fullName>
+                <default>false</default>
+                <label>Prestige-ZH/ZS</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZH/ZS/JM</fullName>
+                <default>false</default>
+                <label>Prestige-ZH/ZS/JM</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZJ/MM/YJ</fullName>
+                <default>false</default>
+                <label>Prestige-ZJ/MM/YJ</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZJ/MM/YJ/ZQ</fullName>
+                <default>false</default>
+                <label>Prestige-ZJ/MM/YJ/ZQ</label>
+            </value>
+            <value>
+                <fullName>South-Others</fullName>
+                <default>false</default>
+                <label>South-Others</label>
+            </value>
+            <value>
+                <fullName>South-PG</fullName>
+                <default>false</default>
+                <label>South-PG</label>
+            </value>
+            <value>
+                <fullName>South-TMK</fullName>
+                <default>false</default>
+                <label>South-TMK</label>
+            </value>
+            <value>
+                <fullName>South-VIP</fullName>
+                <default>false</default>
+                <label>South-VIP</label>
+            </value>
+            <value>
+                <fullName>South-WS</fullName>
+                <default>false</default>
+                <label>South-WS</label>
+            </value>
+            <value>
+                <fullName>NW-PG</fullName>
+                <default>false</default>
+                <label>NW-PG</label>
+            </value>
+            <value>
+                <fullName>Premium-CQ MAC</fullName>
+                <default>false</default>
+                <label>Premium-CQ MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-KM MAC</fullName>
+                <default>false</default>
+                <label>Premium-KM MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-SW MAC</fullName>
+                <default>false</default>
+                <label>Premium-SW MAC</label>
+            </value>
+            <value>
+                <fullName>Prestige-CD KTV/KTVF/BAR</fullName>
+                <default>false</default>
+                <label>Prestige-CD KTV/KTVF/BAR</label>
+            </value>
+            <value>
+                <fullName>Prestige-Chongqing</fullName>
+                <default>false</default>
+                <label>Prestige-Chongqing</label>
+            </value>
+            <value>
+                <fullName>Prestige-Chongqing ON/OC</fullName>
+                <default>false</default>
+                <label>Prestige-Chongqing ON/OC</label>
+            </value>
+            <value>
+                <fullName>Prestige-Gansu</fullName>
+                <default>false</default>
+                <label>Prestige-Gansu</label>
+            </value>
+            <value>
+                <fullName>Prestige-Guizhou</fullName>
+                <default>false</default>
+                <label>Prestige-Guizhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-Ningxia</fullName>
+                <default>false</default>
+                <label>Prestige-Ningxia</label>
+            </value>
+            <value>
+                <fullName>Prestige-Qinghai</fullName>
+                <default>false</default>
+                <label>Prestige-Qinghai</label>
+            </value>
+            <value>
+                <fullName>Prestige-Shaanxi</fullName>
+                <default>false</default>
+                <label>Prestige-Shaanxi</label>
+            </value>
+            <value>
+                <fullName>Prestige-Sichuan OC</fullName>
+                <default>false</default>
+                <label>Prestige-Sichuan OC</label>
+            </value>
+            <value>
+                <fullName>Prestige-SW MOT</fullName>
+                <default>false</default>
+                <label>Prestige-SW MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-Xizang</fullName>
+                <default>false</default>
+                <label>Prestige-Xizang</label>
+            </value>
+            <value>
+                <fullName>Prestige-Yunnan</fullName>
+                <default>false</default>
+                <label>Prestige-Yunnan</label>
+            </value>
+            <value>
+                <fullName>SW-Others</fullName>
+                <default>false</default>
+                <label>SW-Others</label>
+            </value>
+            <value>
+                <fullName>SW-PG</fullName>
+                <default>false</default>
+                <label>SW-PG</label>
+            </value>
+            <value>
+                <fullName>SW-TMK</fullName>
+                <default>false</default>
+                <label>SW-TMK</label>
+            </value>
+            <value>
+                <fullName>SW-VIP</fullName>
+                <default>false</default>
+                <label>SW-VIP</label>
+            </value>
+            <value>
+                <fullName>Wine</fullName>
+                <default>false</default>
+                <label>Wine</label>
+            </value>
+            <value>
+                <fullName>Premium-HuB/HeN MOT</fullName>
+                <default>false</default>
+                <label>Premium-HuB/HeN MOT</label>
+            </value>
+            <value>
+                <fullName>SW-WS</fullName>
+                <default>false</default>
+                <label>SW-WS</label>
+            </value>
+            <value>
+                <fullName>West-PG</fullName>
+                <default>false</default>
+                <label>West-PG</label>
+            </value>
+            <value>
+                <fullName>Central-Others</fullName>
+                <default>false</default>
+                <label>Central-Others</label>
+            </value>
+            <value>
+                <fullName>Central-PG</fullName>
+                <default>false</default>
+                <label>Central-PG</label>
+            </value>
+            <value>
+                <fullName>Central-TMK</fullName>
+                <default>false</default>
+                <label>Central-TMK</label>
+            </value>
+            <value>
+                <fullName>Central-VIP</fullName>
+                <default>false</default>
+                <label>Central-VIP</label>
+            </value>
+            <value>
+                <fullName>Central-WS</fullName>
+                <default>false</default>
+                <label>Central-WS</label>
+            </value>
+            <value>
+                <fullName>Premium-AH MOT</fullName>
+                <default>false</default>
+                <label>Premium-AH MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-Central MOT</fullName>
+                <default>false</default>
+                <label>Premium-Central MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-JSAH MOT</fullName>
+                <default>false</default>
+                <label>Premium-JSAH MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-MAC CEP</fullName>
+                <default>false</default>
+                <label>Premium-MAC CEP</label>
+            </value>
+            <value>
+                <fullName>Premium-Nanjing JS MOT</fullName>
+                <default>false</default>
+                <label>Premium-Nanjing JS MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-North JS MOT</fullName>
+                <default>false</default>
+                <label>Premium-North JS MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-SH MAC</fullName>
+                <default>false</default>
+                <label>Premium-SH MAC</label>
+            </value>
+            <value>
+                <fullName>Premium-SH MOT</fullName>
+                <default>false</default>
+                <label>Premium-SH MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-South JS MOT</fullName>
+                <default>false</default>
+                <label>Premium-South JS MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-ZJ MOT</fullName>
+                <default>false</default>
+                <label>Premium-ZJ MOT</label>
+            </value>
+            <value>
+                <fullName>Premium-ZJ/JS MAC</fullName>
+                <default>false</default>
+                <label>Premium-ZJ/JS MAC</label>
+            </value>
+            <value>
+                <fullName>Prestige-Anhui</fullName>
+                <default>false</default>
+                <label>Prestige-Anhui</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Changzhou</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Changzhou</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Jiangyin</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Jiangyin</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Kunshan</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Kunshan</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Nanjing</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Nanjing</label>
+            </value>
+            <value>
+                <fullName>Prestige-Jiangsu Nantong</fullName>
+                <default>false</default>
+                <label>Prestige-Jiangsu Nantong</label>
+            </value>
+            <value>
+                <fullName>Prestige-CD OFF/Rest</fullName>
+                <default>false</default>
+                <label>Prestige-CD OFF/Rest</label>
+            </value>
+            <value>
+                <fullName>Premium-SW MOT</fullName>
+                <default>false</default>
+                <label>Premium-SW MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-Chongqing OFF/Rest</fullName>
+                <default>false</default>
+                <label>Prestige-Chongqing OFF/Rest</label>
+            </value>
+            <value>
+                <fullName>West-Others</fullName>
+                <default>false</default>
+                <label>West-Others</label>
+            </value>
+            <value>
+                <fullName>Prestige-Hubei TOT&amp;O/C</fullName>
+                <default>false</default>
+                <label>Prestige-Hubei TOT&amp;O/C</label>
+            </value>
+            <value>
+                <fullName>Premium-ShX/G/N/Q/XJ MOT</fullName>
+                <default>false</default>
+                <label>Premium-ShX/G/N/Q/XJ MOT</label>
+            </value>
+            <value>
+                <fullName>Prestige-Xinjiang</fullName>
+                <default>false</default>
+                <label>Prestige-Xinjiang</label>
+            </value>
+            <value>
+                <fullName>Premium-CD MAC</fullName>
+                <default>false</default>
+                <label>Premium-CD MAC</label>
+            </value>
+            <value>
+                <fullName>West-TMK</fullName>
+                <default>false</default>
+                <label>West-TMK</label>
+            </value>
+            <value>
+                <fullName>West-WS</fullName>
+                <default>false</default>
+                <label>West-WS</label>
+            </value>
+            <value>
+                <fullName>Premium-E Commerce</fullName>
+                <default>false</default>
+                <label>Premium-E Commerce</label>
+            </value>
+            <value>
+                <fullName>IH</fullName>
+                <default>false</default>
+                <label>IH</label>
+            </value>
+            <value>
+                <fullName>Whiskies</fullName>
+                <default>false</default>
+                <label>Whiskies</label>
+            </value>
+            <value>
+                <fullName>Prestige-SS/GM</fullName>
+                <default>false</default>
+                <label>Prestige-SS/GM</label>
+            </value>
+            <value>
+                <fullName>Prestige-ST/MZ</fullName>
+                <default>false</default>
+                <label>Prestige-ST/MZ</label>
+            </value>
+            <value>
+                <fullName>Premium-NKA MOT</fullName>
+                <default>false</default>
+                <label>Premium-NKA MOT</label>
+            </value>
+            <value>
+                <fullName>Contractor-South</fullName>
+                <default>false</default>
+                <label>Contractor-South</label>
+            </value>
+            <value>
+                <fullName>South-IHBR</fullName>
+                <default>false</default>
+                <label>South-IHBR</label>
+            </value>
+            <value>
+                <fullName>Premium-New Retail</fullName>
+                <default>false</default>
+                <label>Premium-New Retail</label>
+            </value>
+            <value>
+                <fullName>HQ</fullName>
+                <default>false</default>
+                <label>HQ</label>
+            </value>
+            <value>
+                <fullName>HQ-Others</fullName>
+                <default>false</default>
+                <label>HQ-Others</label>
+            </value>
+            <value>
+                <fullName>Premium-Others</fullName>
+                <default>false</default>
+                <label>Premium-Others</label>
+            </value>
+            <value>
+                <fullName>BJ IHBR-Bar &amp; Restaurant</fullName>
+                <default>false</default>
+                <label>BJ IHBR-Bar &amp; Restaurant</label>
+            </value>
+            <value>
+                <fullName>BJ IHBR-Hotel</fullName>
+                <default>false</default>
+                <label>BJ IHBR-Hotel</label>
+            </value>
+            <value>
+                <fullName>SH IHBR-Bar &amp; Restaurant</fullName>
+                <default>false</default>
+                <label>SH IHBR-Bar &amp; Restaurant</label>
+            </value>
+            <value>
+                <fullName>SH IHBR-Hotel</fullName>
+                <default>false</default>
+                <label>SH IHBR-Hotel</label>
+            </value>
+            <value>
+                <fullName>SW-IHBR</fullName>
+                <default>false</default>
+                <label>SW-IHBR</label>
+            </value>
+            <value>
+                <fullName>HQ-National Contract</fullName>
+                <default>false</default>
+                <label>HQ-National Contract</label>
+            </value>
+            <value>
+                <fullName>Brand Marketing</fullName>
+                <default>false</default>
+                <label>Brand Marketing</label>
+            </value>
+            <value>
+                <fullName>Bar&amp;Restaurant</fullName>
+                <default>false</default>
+                <label>Bar&amp;Restaurant</label>
+            </value>
+            <value>
+                <fullName>Channel Analysis</fullName>
+                <default>false</default>
+                <label>Channel Analysis</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>IHBR</fullName>
+                <default>false</default>
+                <label>IHBR</label>
+            </value>
+            <value>
+                <fullName>Innovation and White Spirits</fullName>
+                <default>false</default>
+                <label>Innovation and White Spirits</label>
+            </value>
+            <value>
+                <fullName>KTV</fullName>
+                <default>false</default>
+                <label>KTV</label>
+            </value>
+            <value>
+                <fullName>Luxe</fullName>
+                <default>false</default>
+                <label>Luxe</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Merchandising</fullName>
+                <default>false</default>
+                <label>Merchandising</label>
+            </value>
+            <value>
+                <fullName>MMPJ</fullName>
+                <default>false</default>
+                <label>MMPJ</label>
+            </value>
+            <value>
+                <fullName>NTMK</fullName>
+                <default>false</default>
+                <label>NTMK</label>
+            </value>
+            <value>
+                <fullName>OFF</fullName>
+                <default>false</default>
+                <label>OFF</label>
+            </value>
+            <value>
+                <fullName>PR</fullName>
+                <default>false</default>
+                <label>PR</label>
+            </value>
+            <value>
+                <fullName>Procurement</fullName>
+                <default>false</default>
+                <label>Procurement</label>
+            </value>
+            <value>
+                <fullName>Promoter</fullName>
+                <default>false</default>
+                <label>Promoter</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Retail Store</fullName>
+                <default>false</default>
+                <label>Retail Store</label>
+            </value>
+            <value>
+                <fullName>Secretary</fullName>
+                <default>false</default>
+                <label>Secretary</label>
+            </value>
+            <value>
+                <fullName>DC Online</fullName>
+                <default>false</default>
+                <label>DC Online</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model SZ</fullName>
+                <default>false</default>
+                <label>Premium On-D Model SZ</label>
+            </value>
+            <value>
+                <fullName>Premium On-ID Model South</fullName>
+                <default>false</default>
+                <label>Premium On-ID Model South</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model GZ</fullName>
+                <default>false</default>
+                <label>Premium On-D Model GZ</label>
+            </value>
+            <value>
+                <fullName>Prestige-G.CS OFF</fullName>
+                <default>false</default>
+                <label>Prestige-G.CS OFF</label>
+            </value>
+            <value>
+                <fullName>Prestige-JM/ZQ/MM/YJ</fullName>
+                <default>false</default>
+                <label>Prestige-JM/ZQ/MM/YJ</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model TJ</fullName>
+                <default>false</default>
+                <label>Premium On-D Model TJ</label>
+            </value>
+            <value>
+                <fullName>Premium On-ID Model East</fullName>
+                <default>false</default>
+                <label>Premium On-ID Model East</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model XM</fullName>
+                <default>false</default>
+                <label>Premium On-D Model XM</label>
+            </value>
+            <value>
+                <fullName>Premium On-HQ</fullName>
+                <default>false</default>
+                <label>Premium On-HQ</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model QD</fullName>
+                <default>false</default>
+                <label>Premium On-D Model QD</label>
+            </value>
+            <value>
+                <fullName>Premium On-CMKT</fullName>
+                <default>false</default>
+                <label>Premium On-CMKT</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model BJ</fullName>
+                <default>false</default>
+                <label>Premium On-D Model BJ</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model CS</fullName>
+                <default>false</default>
+                <label>Premium On-D Model CS</label>
+            </value>
+            <value>
+                <fullName>Premium On-D Model SY</fullName>
+                <default>false</default>
+                <label>Premium On-D Model SY</label>
+            </value>
+            <value>
+                <fullName>Premium On-ID Model Central</fullName>
+                <default>false</default>
+                <label>Premium On-ID Model Central</label>
+            </value>
+            <value>
+                <fullName>Premium On-ID Model HQ</fullName>
+                <default>false</default>
+                <label>Premium On-ID Model HQ</label>
+            </value>
+            <value>
+                <fullName>Premium On-ID Model North</fullName>
+                <default>false</default>
+                <label>Premium On-ID Model North</label>
+            </value>
+            <value>
+                <fullName>Premium On-KA</fullName>
+                <default>false</default>
+                <label>Premium On-KA</label>
+            </value>
+            <value>
+                <fullName>Premium-OFF WS</fullName>
+                <default>false</default>
+                <label>Premium-OFF WS</label>
+            </value>
+            <value>
+                <fullName>Premium On-WS</fullName>
+                <default>false</default>
+                <label>Premium On-WS</label>
+            </value>
+            <value>
+                <fullName>Prestige-ZZ</fullName>
+                <default>false</default>
+                <label>Prestige-ZZ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,134 @@
+<template>
+<lightning-card  title="" variant="narrow"> 
+	<div style="padding:0px 2% 0 2%;background-color:white;">
+		<table id="Searching">
+			<tr>
+				<td>
+					<lightning-input variant="label-inline" label="PR号" onchange={handlePRNoChange} value={searchPRNo}></lightning-input>
+				</td>
+				<td>
+                    <lightning-combobox variant="label-inline" placeholder="请选择" name="searchPRSessionNo"
+                        label="场次编号"
+                        value={searchPRSessionNo} options={PRSessions}>
+                    </lightning-combobox>
+				</td>
+				<td>
+					<lightning-input variant="label-inline" type="date" label="会议开始时间" onchange={handleStartDateChange} name="searchPRStartDate" value={searchPRStartDate}></lightning-input>
+				</td>
+				<td>
+					<lightning-input variant="label-inline" type="date" label="会议结束时间" onchange={handleEndDateChange} name="searchPREndDate" value={searchPREndDate}></lightning-input>
+				</td>
+				<td style="width:20%;">
+                    <lightning-combobox variant="label-inline" required="true" placeholder="请选择" name="searchPhototype" onchange={handlephotoChange}
+                        label="照片类型"
+                        value={searchPhototype} options={phototypes}>
+                    </lightning-combobox>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lightning-input variant="label-inline" label="会议组织者" onchange={handleOrganizerChange} name="searchPROrganizer" value={searchPROrganizer}></lightning-input>
+				</td>
+
+				<td>
+					<lightning-input variant="label-inline" label="会议申请者" onchange={handleOrganizerChange} name="searchPROrganizer" value={searchPROrganizer}></lightning-input>
+				</td>
+				
+				<td>
+					<lightning-input variant="label-inline" label="照片审核人" onchange={handleReviewerChange} name="searchPRReviewer" value={searchPRReviewer}></lightning-input>
+				</td>
+				<td>
+                    <lightning-combobox variant="label-inline" placeholder="请选择" name="searchPRApprovalStatus" onchange={handleStatusChange}
+                        label="审核状态"
+                        value={searchPRApprovalStatus} options={ApprovalStatus}>
+                    </lightning-combobox>
+				</td>
+				<td>
+					<template if:true={industryPicklist.data}>
+		                <lightning-combobox name="Industry" label="Industry" value={myvalue}
+		                    options={industryPicklist.data.values} onchange={handleChange}>
+		                </lightning-combobox>
+		            </template>
+				</td>
+				<td style="text-align:right;">
+					<lightning-button label="清空"  onclick={doClear}></lightning-button>&nbsp;&nbsp;
+                    <lightning-button variant="brand" label="搜索" onclick={doSearch}></lightning-button>
+				</td>
+			</tr>
+		</table><br/>
+		<table id="Actions">
+			<tr>
+				<td style="width:40%;"></td>
+				<td style="width:20%;text-align:center;">
+					<lightning-button variant="brand" label="照片列表检索" onclick={doRedirect}></lightning-button>
+				</td>
+				<td style="width:40%;"></td>
+			</tr>
+			<tr>
+				<td style="text-align:left;"><a hre="">按日期升序</a>&nbsp;&nbsp;<a hre="">按日期降序</a></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<table id="Details">
+			<tbody>
+				<template for:each={objects} for:item="object">
+					<tr key={object.key}>
+						<td>
+							<lightning-card title="">
+								<template for:each={object.data} for:item="obj">
+									<template if:true={obj.Id}>
+										<td style="width:20%;" key={obj.Id}>
+											<a data-value = {obj.Id} onclick={openModal}>
+                                                <img style="width:70%;height:50%;" src="/servlet/servlet.FileDownload?file=00P2v00002UOdh8"></img>
+                                            </a><br/>
+                                            PR号 : {obj.Name}<br/>
+                                            场次编号 : {obj.Name}<br/>
+                                            会议名称 : 测试会议<br/>
+                                            会议日期 : 2021-8-2<br/>
+                                            会议负责人 : Sam<br/>
+                                            会议类型 : 小组讨论会议<br/>
+                                            拍照人 : Sam Zhou
+										</td>
+									</template>
+									<template if:false={obj.Id}>
+										<td style="width:20%;" key={obj.Id}></td>
+									</template>
+								</template>
+						</lightning-card>
+						</td>
+					</tr>
+				</template>
+		    </tbody>
+		</table>
+		<template if:true={showmoredata}>
+			<br/>
+			<div style="text-align:center;"><a onclick={loadMoreImages}>点击加载更多...</a></div>
+		</template>
+		<template if:true={showusesearch}>
+			<br/>
+			<div style="text-align:center;">不可加载更多，请使用搜索功能！</div>
+		</template>
+	</div>
+	<template if:false={showmoredata}>
+		<br/>
+		<div style="text-align:center;color:red;">请先选择照片类型！</div>
+	</template>
+	<template if:true={IsOpen}>
+		<section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+          <div class="slds-modal__container">
+          	<header class="slds-modal__header" style="text-align: right;">
+		        <lightning-icon icon-name="utility:close" alternative-text="close" size="small" onclick={closeModal}></lightning-icon>
+		    </header>
+            <div class="slds-modal__content slds-p-around_medium">
+                <img style= "padding:0px;width: 100%; height:90%;" src={showimageid}/><br/>
+            </div>
+            <!--<div class="slds-modal__footer slds-modal__footer_directional">
+              <button onclick={closeModal}>关闭</button>
+            </div>-->
+          </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+	</template>
+</lightning-card>
+</template>

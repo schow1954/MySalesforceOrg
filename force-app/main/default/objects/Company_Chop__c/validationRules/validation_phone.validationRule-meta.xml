@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_phone</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX( TEXT( phone__c ) ,  &apos;^1[3|4|5|7|8][0-9]\\d{8}$&apos;))</errorConditionFormula>
+    <errorMessage>手机号不对</errorMessage>
+</ValidationRule>

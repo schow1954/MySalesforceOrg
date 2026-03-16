@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Files_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>文件类型</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>证照</fullName>
+                <default>false</default>
+                <label>证照</label>
+            </value>
+            <value>
+                <fullName>合同</fullName>
+                <default>false</default>
+                <label>合同</label>
+            </value>
+            <value>
+                <fullName>其他</fullName>
+                <default>false</default>
+                <label>其他</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

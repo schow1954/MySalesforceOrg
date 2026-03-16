@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactType__c</fullName>
+    <externalId>false</externalId>
+    <label>合同类型</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SPONSORSHIP AGREEMENT</fullName>
+                <default>false</default>
+                <label>SPONSORSHIP AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>HCP/HCO</fullName>
+                <default>false</default>
+                <label>HCP/HCO</label>
+            </value>
+            <value>
+                <fullName>PSA-PATIENT</fullName>
+                <default>false</default>
+                <label>PSA-PATIENT</label>
+            </value>
+            <value>
+                <fullName>MASTER SERVICE AGREEMENT</fullName>
+                <default>false</default>
+                <label>MASTER SERVICE AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>EVENT PARTICIPATION AGREEMENT</fullName>
+                <default>false</default>
+                <label>EVENT PARTICIPATION AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>RESEARCH GRANT AGREEMENT</fullName>
+                <default>false</default>
+                <label>RESEARCH GRANT AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>DONATION AGREEMENT</fullName>
+                <default>false</default>
+                <label>DONATION AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>CONFIDENTIAL DISCLOUSURE AGREEMENT</fullName>
+                <default>false</default>
+                <label>CONFIDENTIAL DISCLOUSURE AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>RENOVATION AGREEMENT</fullName>
+                <default>false</default>
+                <label>RENOVATION AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>LEASE AGREEMENT</fullName>
+                <default>false</default>
+                <label>LEASE AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>CLINICAL STUDY AGREEMENT</fullName>
+                <default>false</default>
+                <label>CLINICAL STUDY AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>SCOPE OF WORK</fullName>
+                <default>false</default>
+                <label>SCOPE OF WORK</label>
+            </value>
+            <value>
+                <fullName>COLLABORATION AGREEMENT</fullName>
+                <default>false</default>
+                <label>COLLABORATION AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>LABOR AGREEMENT</fullName>
+                <default>false</default>
+                <label>LABOR AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>INSURANCE AGREEMENT</fullName>
+                <default>false</default>
+                <label>INSURANCE AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>SERVICE AGREEMENT</fullName>
+                <default>false</default>
+                <label>SERVICE AGREEMENT</label>
+            </value>
+            <value>
+                <fullName>MISCELLANEOUS</fullName>
+                <default>false</default>
+                <label>MISCELLANEOUS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

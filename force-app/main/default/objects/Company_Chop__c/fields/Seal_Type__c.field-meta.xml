@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seal_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>盖章类型</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>公章</fullName>
+                <default>false</default>
+                <label>公章</label>
+            </value>
+            <value>
+                <fullName>法人章</fullName>
+                <default>false</default>
+                <label>法人章</label>
+            </value>
+            <value>
+                <fullName>合同章</fullName>
+                <default>false</default>
+                <label>合同章</label>
+            </value>
+            <value>
+                <fullName>财务专用章</fullName>
+                <default>false</default>
+                <label>财务专用章</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

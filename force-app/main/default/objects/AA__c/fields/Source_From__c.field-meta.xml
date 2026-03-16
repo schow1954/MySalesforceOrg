@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_From__c</fullName>
+    <defaultValue>&apos;录入&apos;</defaultValue>
+    <externalId>false</externalId>
+    <label>来源</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>录入</fullName>
+                <default>false</default>
+                <label>录入</label>
+            </value>
+            <value>
+                <fullName>导入</fullName>
+                <default>false</default>
+                <label>导入</label>
+            </value>
+            <value>
+                <fullName>DBU</fullName>
+                <default>false</default>
+                <label>DBU</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

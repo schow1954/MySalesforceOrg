@@ -1,0 +1,70 @@
+<template>
+    <lightning-card class="wizard-shell" title="合同创建向导" icon-name="standard:contract">
+        <div class="slds-p-around_large page-wrapper">
+            <template if:true={isLoading}>
+                <div class="loading-overlay">
+                    <lightning-spinner alternative-text="加载中" size="medium"></lightning-spinner>
+                    <p class="loading-text">正在处理，请稍候...</p>
+                </div>
+            </template>
+
+            <section class="progress-section slds-m-bottom_large">
+                <lightning-progress-indicator current-step={currentStepValue} type="path" variant="base">
+                    <template for:each={steps} for:item="step">
+                        <lightning-progress-step key={step.value} label={step.label} value={step.value}></lightning-progress-step>
+                    </template>
+                </lightning-progress-indicator>
+
+                <div class="status-strip slds-m-top_small">
+                    <template for:each={steps} for:item="step">
+                        <span key={step.value} class={step.className}>{step.label}</span>
+                    </template>
+                </div>
+            </section>
+
+            <template if:true={hasObjectError}>
+                <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                    <span class="slds-assistive-text">error</span>
+                    <h2>{objectErrorMessage}</h2>
+                </div>
+            </template>
+
+            <template if:false={hasObjectError}>
+                <p class="field-tip slds-m-bottom_small">请填写下方 10 个字段后保存（已填写：{filledFieldCount}/10）</p>
+
+                <div class="slds-grid slds-wrap slds-gutters form-grid">
+                    <template for:each={displayFields} for:item="field">
+                        <div key={field.apiName} class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                            <lightning-input
+                                data-field={field.apiName}
+                                label={field.label}
+                                type={field.type}
+                                required
+                                value={field.value}
+                                onchange={handleInputChange}
+                            ></lightning-input>
+                        </div>
+                    </template>
+                </div>
+
+                <section class="preview-panel slds-m-top_large">
+                    <h3 class="slds-text-heading_small slds-m-bottom_small">预览样式</h3>
+                    <div class="preview-grid">
+                        <template for:each={displayFields} for:item="field">
+                            <div key={field.apiName} class="preview-item">
+                                <span class="preview-label">{field.label}</span>
+                                <span class="preview-value">{field.valueOrPlaceholder}</span>
+                            </div>
+                        </template>
+                    </div>
+                </section>
+
+                <div class="action-row slds-m-top_large">
+                    <lightning-button variant="neutral" label="取消" onclick={handleCancel}></lightning-button>
+                    <lightning-button variant="brand" label="保存" class="slds-m-left_small" onclick={handleSave}></lightning-button>
+                    <lightning-button variant="success" label="下一步" class="slds-m-left_small" onclick={handleNextStep}></lightning-button>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel__c</fullName>
+    <externalId>false</externalId>
+    <label>Channel</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2BW - Night Club</fullName>
+                <default>false</default>
+                <label>2BW - Night Club</label>
+            </value>
+            <value>
+                <fullName>2HT - Hotel</fullName>
+                <default>false</default>
+                <label>2HT - Hotel</label>
+            </value>
+            <value>
+                <fullName>2MC - Bar &amp; Restaurant</fullName>
+                <default>false</default>
+                <label>2MC - Bar &amp; Restaurant</label>
+            </value>
+            <value>
+                <fullName>2MR - Bar &amp; Restaurant - High</fullName>
+                <default>false</default>
+                <label>2MR - Bar &amp; Restaurant - High</label>
+            </value>
+            <value>
+                <fullName>2PC - Membership Club</fullName>
+                <default>false</default>
+                <label>2PC - Membership Club</label>
+            </value>
+            <value>
+                <fullName>4CR - Chinese Restaurant</fullName>
+                <default>false</default>
+                <label>4CR - Chinese Restaurant</label>
+            </value>
+            <value>
+                <fullName>4ZZ - Chinese Restaurant - Group</fullName>
+                <default>false</default>
+                <label>4ZZ - Chinese Restaurant - Group</label>
+            </value>
+            <value>
+                <fullName>6BL - Bar - Local</fullName>
+                <default>false</default>
+                <label>6BL - Bar - Local</label>
+            </value>
+            <value>
+                <fullName>6KR - Karaoke Chain</fullName>
+                <default>false</default>
+                <label>6KR - Karaoke Chain</label>
+            </value>
+            <value>
+                <fullName>6NZ - TOT-Night Club</fullName>
+                <default>false</default>
+                <label>6NZ - TOT-Night Club</label>
+            </value>
+            <value>
+                <fullName>All Customer</fullName>
+                <default>false</default>
+                <label>All Customer</label>
+            </value>
+            <value>
+                <fullName>Asian Restaurant</fullName>
+                <default>false</default>
+                <label>Asian Restaurant</label>
+            </value>
+            <value>
+                <fullName>B2B - Off Trade</fullName>
+                <default>false</default>
+                <label>B2B - Off Trade</label>
+            </value>
+            <value>
+                <fullName>B2B - On Trade</fullName>
+                <default>false</default>
+                <label>B2B - On Trade</label>
+            </value>
+            <value>
+                <fullName>Bar</fullName>
+                <default>false</default>
+                <label>Bar</label>
+            </value>
+            <value>
+                <fullName>Border Shops</fullName>
+                <default>false</default>
+                <label>Border Shops</label>
+            </value>
+            <value>
+                <fullName>BulkPurchase</fullName>
+                <default>false</default>
+                <label>BulkPurchase</label>
+            </value>
+            <value>
+                <fullName>Cash &amp; Carry</fullName>
+                <default>false</default>
+                <label>Cash &amp; Carry</label>
+            </value>
+            <value>
+                <fullName>Chain Super</fullName>
+                <default>false</default>
+                <label>Chain Super</label>
+            </value>
+            <value>
+                <fullName>Chinese Restaurant</fullName>
+                <default>false</default>
+                <label>Chinese Restaurant</label>
+            </value>
+            <value>
+                <fullName>Concessionaires</fullName>
+                <default>false</default>
+                <label>Concessionaires</label>
+            </value>
+            <value>
+                <fullName>Convenience Store Chain</fullName>
+                <default>false</default>
+                <label>Convenience Store Chain</label>
+            </value>
+            <value>
+                <fullName>Corporate Accounts</fullName>
+                <default>false</default>
+                <label>Corporate Accounts</label>
+            </value>
+            <value>
+                <fullName>CVS</fullName>
+                <default>false</default>
+                <label>CVS</label>
+            </value>
+            <value>
+                <fullName>D2C</fullName>
+                <default>false</default>
+                <label>D2C</label>
+            </value>
+            <value>
+                <fullName>Department Store</fullName>
+                <default>false</default>
+                <label>Department Store</label>
+            </value>
+            <value>
+                <fullName>DF_Hainan</fullName>
+                <default>false</default>
+                <label>DF_Hainan</label>
+            </value>
+            <value>
+                <fullName>DF Island</fullName>
+                <default>false</default>
+                <label>DF Island</label>
+            </value>
+            <value>
+                <fullName>Domestic Airport</fullName>
+                <default>false</default>
+                <label>Domestic Airport</label>
+            </value>
+            <value>
+                <fullName>Downtown / Shipchandlers</fullName>
+                <default>false</default>
+                <label>Downtown / Shipchandlers</label>
+            </value>
+            <value>
+                <fullName>Drinks &amp; Co.</fullName>
+                <default>false</default>
+                <label>Drinks &amp; Co.</label>
+            </value>
+            <value>
+                <fullName>Drinks &amp; Co.Offline</fullName>
+                <default>false</default>
+                <label>Drinks &amp; Co.Offline</label>
+            </value>
+            <value>
+                <fullName>Drinks &amp; Co.Online</fullName>
+                <default>false</default>
+                <label>Drinks &amp; Co.Online</label>
+            </value>
+            <value>
+                <fullName>DS - Off Trade</fullName>
+                <default>false</default>
+                <label>DS - Off Trade</label>
+            </value>
+            <value>
+                <fullName>DS - On Trade</fullName>
+                <default>false</default>
+                <label>DS - On Trade</label>
+            </value>
+            <value>
+                <fullName>EC</fullName>
+                <default>false</default>
+                <label>EC</label>
+            </value>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
+            </value>
+            <value>
+                <fullName>EC WS- 电商 批发商</fullName>
+                <default>false</default>
+                <label>EC WS- 电商 批发商</label>
+            </value>
+            <value>
+                <fullName>Embassy</fullName>
+                <default>false</default>
+                <label>Embassy</label>
+            </value>
+            <value>
+                <fullName>Employee&apos;s Accounts</fullName>
+                <default>false</default>
+                <label>Employee&apos;s Accounts</label>
+            </value>
+            <value>
+                <fullName>FG_STK3</fullName>
+                <default>false</default>
+                <label>FG_STK3</label>
+            </value>
+            <value>
+                <fullName>FKTV</fullName>
+                <default>false</default>
+                <label>FKTV</label>
+            </value>
+            <value>
+                <fullName>F-KTV</fullName>
+                <default>false</default>
+                <label>F-KTV</label>
+            </value>
+            <value>
+                <fullName>Free goods &amp; Buffer (STK3)</fullName>
+                <default>false</default>
+                <label>Free goods &amp; Buffer (STK3)</label>
+            </value>
+            <value>
+                <fullName>Go To Enterprise</fullName>
+                <default>false</default>
+                <label>Go To Enterprise</label>
+            </value>
+            <value>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+                <label>Grocery</label>
+            </value>
+            <value>
+                <fullName>HBR (西式)</fullName>
+                <default>false</default>
+                <label>HBR (西式)</label>
+            </value>
+            <value>
+                <fullName>HEB</fullName>
+                <default>false</default>
+                <label>HEB</label>
+            </value>
+            <value>
+                <fullName>High Energy Bar</fullName>
+                <default>false</default>
+                <label>High Energy Bar</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Hypermarket</fullName>
+                <default>false</default>
+                <label>Hypermarket</label>
+            </value>
+            <value>
+                <fullName>HYP International Hyper</fullName>
+                <default>false</default>
+                <label>HYP International Hyper</label>
+            </value>
+            <value>
+                <fullName>IH</fullName>
+                <default>false</default>
+                <label>IH</label>
+            </value>
+            <value>
+                <fullName>IHBR</fullName>
+                <default>false</default>
+                <label>IHBR</label>
+            </value>
+            <value>
+                <fullName>IH_Hotel_Hotel_Direct</fullName>
+                <default>false</default>
+                <label>IH_Hotel_Hotel_Direct</label>
+            </value>
+            <value>
+                <fullName>IH_Hotel_Hotel_Indirect</fullName>
+                <default>false</default>
+                <label>IH_Hotel_Hotel_Indirect</label>
+            </value>
+            <value>
+                <fullName>Inter-company</fullName>
+                <default>false</default>
+                <label>Inter-company</label>
+            </value>
+            <value>
+                <fullName>KA</fullName>
+                <default>false</default>
+                <label>KA</label>
+            </value>
+            <value>
+                <fullName>KTV</fullName>
+                <default>false</default>
+                <label>KTV</label>
+            </value>
+            <value>
+                <fullName>KTV (All)</fullName>
+                <default>false</default>
+                <label>KTV (All)</label>
+            </value>
+            <value>
+                <fullName>Kunpeng WS-鲲鹏 批发商</fullName>
+                <default>false</default>
+                <label>Kunpeng WS-鲲鹏 批发商</label>
+            </value>
+            <value>
+                <fullName>Lab</fullName>
+                <default>false</default>
+                <label>Lab</label>
+            </value>
+            <value>
+                <fullName>L&apos;Atelier Martell Guangzhou</fullName>
+                <default>false</default>
+                <label>L&apos;Atelier Martell Guangzhou</label>
+            </value>
+            <value>
+                <fullName>L’atelier Offline</fullName>
+                <default>false</default>
+                <label>L’atelier Offline</label>
+            </value>
+            <value>
+                <fullName>L’atelier Online</fullName>
+                <default>false</default>
+                <label>L’atelier Online</label>
+            </value>
+            <value>
+                <fullName>LEB</fullName>
+                <default>false</default>
+                <label>LEB</label>
+            </value>
+            <value>
+                <fullName>Le Cercle Offline</fullName>
+                <default>false</default>
+                <label>Le Cercle Offline</label>
+            </value>
+            <value>
+                <fullName>Le Cercle Online</fullName>
+                <default>false</default>
+                <label>Le Cercle Online</label>
+            </value>
+            <value>
+                <fullName>Liquor Store(WS Store)</fullName>
+                <default>false</default>
+                <label>Liquor Store(WS Store)</label>
+            </value>
+            <value>
+                <fullName>Local Hyper Super</fullName>
+                <default>false</default>
+                <label>Local Hyper Super</label>
+            </value>
+            <value>
+                <fullName>Low Energy Bar</fullName>
+                <default>false</default>
+                <label>Low Energy Bar</label>
+            </value>
+            <value>
+                <fullName>LSC</fullName>
+                <default>false</default>
+                <label>LSC</label>
+            </value>
+            <value>
+                <fullName>LS (菸專)</fullName>
+                <default>false</default>
+                <label>LS (菸專)</label>
+            </value>
+            <value>
+                <fullName>Mac-on</fullName>
+                <default>false</default>
+                <label>Mac-on</label>
+            </value>
+            <value>
+                <fullName>Mac on WS-Mac on 批发商</fullName>
+                <default>false</default>
+                <label>Mac on WS-Mac on 批发商</label>
+            </value>
+            <value>
+                <fullName>Metro WS-麦德龙 批发商</fullName>
+                <default>false</default>
+                <label>Metro WS-麦德龙 批发商</label>
+            </value>
+            <value>
+                <fullName>MM_Mongolia</fullName>
+                <default>false</default>
+                <label>MM_Mongolia</label>
+            </value>
+            <value>
+                <fullName>Modern</fullName>
+                <default>false</default>
+                <label>Modern</label>
+            </value>
+            <value>
+                <fullName>Modern Retailer</fullName>
+                <default>false</default>
+                <label>Modern Retailer</label>
+            </value>
+            <value>
+                <fullName>Mongolia</fullName>
+                <default>false</default>
+                <label>Mongolia</label>
+            </value>
+            <value>
+                <fullName>MOT</fullName>
+                <default>false</default>
+                <label>MOT</label>
+            </value>
+            <value>
+                <fullName>MOT Liquor Chain Store</fullName>
+                <default>false</default>
+                <label>MOT Liquor Chain Store</label>
+            </value>
+            <value>
+                <fullName>MOT WS-MOT 批发商</fullName>
+                <default>false</default>
+                <label>MOT WS-MOT 批发商</label>
+            </value>
+            <value>
+                <fullName>MOT (西式)</fullName>
+                <default>false</default>
+                <label>MOT (西式)</label>
+            </value>
+            <value>
+                <fullName>NBD</fullName>
+                <default>false</default>
+                <label>NBD</label>
+            </value>
+            <value>
+                <fullName>New Retail</fullName>
+                <default>false</default>
+                <label>New Retail</label>
+            </value>
+            <value>
+                <fullName>New Retail Offline</fullName>
+                <default>false</default>
+                <label>New Retail Offline</label>
+            </value>
+            <value>
+                <fullName>New Retail Online</fullName>
+                <default>false</default>
+                <label>New Retail Online</label>
+            </value>
+            <value>
+                <fullName>Nightclub</fullName>
+                <default>false</default>
+                <label>Nightclub</label>
+            </value>
+            <value>
+                <fullName>OFF_MOT</fullName>
+                <default>false</default>
+                <label>OFF_MOT</label>
+            </value>
+            <value>
+                <fullName>OFF_TOT</fullName>
+                <default>false</default>
+                <label>OFF_TOT</label>
+            </value>
+            <value>
+                <fullName>Off Trade</fullName>
+                <default>false</default>
+                <label>Off Trade</label>
+            </value>
+            <value>
+                <fullName>OTH</fullName>
+                <default>false</default>
+                <label>OTH</label>
+            </value>
+            <value>
+                <fullName>PM_BulkPurchase</fullName>
+                <default>false</default>
+                <label>PM_BulkPurchase</label>
+            </value>
+            <value>
+                <fullName>PM D2C</fullName>
+                <default>false</default>
+                <label>PM D2C</label>
+            </value>
+            <value>
+                <fullName>PM EC - HQ</fullName>
+                <default>false</default>
+                <label>PM EC - HQ</label>
+            </value>
+            <value>
+                <fullName>PM EC - North</fullName>
+                <default>false</default>
+                <label>PM EC - North</label>
+            </value>
+            <value>
+                <fullName>PM Mac-on</fullName>
+                <default>false</default>
+                <label>PM Mac-on</label>
+            </value>
+            <value>
+                <fullName>PM MOT (Direct)</fullName>
+                <default>false</default>
+                <label>PM MOT (Direct)</label>
+            </value>
+            <value>
+                <fullName>PM MOT (Indirect)</fullName>
+                <default>false</default>
+                <label>PM MOT (Indirect)</label>
+            </value>
+            <value>
+                <fullName>PM_ON</fullName>
+                <default>false</default>
+                <label>PM_ON</label>
+            </value>
+            <value>
+                <fullName>PRCR</fullName>
+                <default>false</default>
+                <label>PRCR</label>
+            </value>
+            <value>
+                <fullName>Premium_Bar_PM_Bar</fullName>
+                <default>false</default>
+                <label>Premium_Bar_PM_Bar</label>
+            </value>
+            <value>
+                <fullName>Premium_BulkPurchase_PM_BulkPurchase</fullName>
+                <default>false</default>
+                <label>Premium_BulkPurchase_PM_BulkPurchase</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-commerce_banner group</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-commerce_banner group</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_BSH</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_BSH</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_BZL</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_BZL</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_DY_FSS_PRC</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_DY_FSS_PRC</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_DY_FSS_Whisky</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_DY_FSS_Whisky</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_DY_FSS_Wine</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_DY_FSS_Wine</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_JD_FSS</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_JD_FSS</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_JD_ZY_Direct</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_JD_ZY_Direct</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_JD_ZY_Indirect</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_JD_ZY_Indirect</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_JX</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_JX</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PDD_FSS_BAL</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PDD_FSS_BAL</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PDD_FSS_CR</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PDD_FSS_CR</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PDD_FSS_PRC</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PDD_FSS_PRC</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PDD_FSS_Whisky</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PDD_FSS_Whisky</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PDD_FSS_WS</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PDD_FSS_WS</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PDD_POP</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PDD_POP</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_POP_IS</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_POP_IS</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_POP_WINE</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_POP_WINE</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PTM_CO</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PTM_CO</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PTM_FSS</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PTM_FSS</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_PTM_NO</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_PTM_NO</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_TM_B2B</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_TM_B2B</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_TM_FSS</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_TM_FSS</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_TM_FSS_ABS</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_TM_FSS_ABS</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_TM_FSS_CR</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_TM_FSS_CR</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_TM_FSS_MTL</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_TM_FSS_MTL</label>
+            </value>
+            <value>
+                <fullName>Premium_E-Commerce_E-Commerce_TM_FSS_Wine</fullName>
+                <default>false</default>
+                <label>Premium_E-Commerce_E-Commerce_TM_FSS_Wine</label>
+            </value>
+            <value>
+                <fullName>Premium_FKTV_PM_FKTV</fullName>
+                <default>false</default>
+                <label>Premium_FKTV_PM_FKTV</label>
+            </value>
+            <value>
+                <fullName>Premium_KTV_PM_KTV</fullName>
+                <default>false</default>
+                <label>Premium_KTV_PM_KTV</label>
+            </value>
+            <value>
+                <fullName>Premium_New Retail_New Retail_1919</fullName>
+                <default>false</default>
+                <label>Premium_New Retail_New Retail_1919</label>
+            </value>
+            <value>
+                <fullName>Premium_New Retail_New Retail_7FRESH</fullName>
+                <default>false</default>
+                <label>Premium_New Retail_New Retail_7FRESH</label>
+            </value>
+            <value>
+                <fullName>Premium_New Retail_New Retail_COFCO_Direct</fullName>
+                <default>false</default>
+                <label>Premium_New Retail_New Retail_COFCO_Direct</label>
+            </value>
+            <value>
+                <fullName>Premium_New Retail_New Retail_HEMA</fullName>
+                <default>false</default>
+                <label>Premium_New Retail_New Retail_HEMA</label>
+            </value>
+            <value>
+                <fullName>Premium_New Retail_New Retail_YH</fullName>
+                <default>false</default>
+                <label>Premium_New Retail_New Retail_YH</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_New Retail_JXE</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_New Retail_JXE</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_banner group</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_banner group</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_CARREFOUR</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_CARREFOUR</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_COSTCO_Direct</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_COSTCO_Direct</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_FAMILYMART</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_FAMILYMART</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_IKEA</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_IKEA</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_METRO_Direct</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_METRO_Direct</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_RLKA</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_RLKA</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_RTMART</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_RTMART</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_SAM_Direct</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_SAM_Direct</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_SAM_Indirect</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_SAM_Indirect</label>
+            </value>
+            <value>
+                <fullName>Premium_OFF MOT_OFF MOT_WALMART</fullName>
+                <default>false</default>
+                <label>Premium_OFF MOT_OFF MOT_WALMART</label>
+            </value>
+            <value>
+                <fullName>Premium_Restaurant_PM_Restaurant</fullName>
+                <default>false</default>
+                <label>Premium_Restaurant_PM_Restaurant</label>
+            </value>
+            <value>
+                <fullName>Premium Super</fullName>
+                <default>false</default>
+                <label>Premium Super</label>
+            </value>
+            <value>
+                <fullName>Prestige_Bar_PT_Bar</fullName>
+                <default>false</default>
+                <label>Prestige_Bar_PT_Bar</label>
+            </value>
+            <value>
+                <fullName>Prestige_BulkPurchase_PT_BulkPurchase</fullName>
+                <default>false</default>
+                <label>Prestige_BulkPurchase_PT_BulkPurchase</label>
+            </value>
+            <value>
+                <fullName>Prestige_FKTV_PT_FKTV</fullName>
+                <default>false</default>
+                <label>Prestige_FKTV_PT_FKTV</label>
+            </value>
+            <value>
+                <fullName>Prestige_Hotel_Hotel_Direct</fullName>
+                <default>false</default>
+                <label>Prestige_Hotel_Hotel_Direct</label>
+            </value>
+            <value>
+                <fullName>Prestige_Hotel_Hotel_Indirect</fullName>
+                <default>false</default>
+                <label>Prestige_Hotel_Hotel_Indirect</label>
+            </value>
+            <value>
+                <fullName>Prestige_KTV_PT_KTV</fullName>
+                <default>false</default>
+                <label>Prestige_KTV_PT_KTV</label>
+            </value>
+            <value>
+                <fullName>Prestige_New Retail_New Retail_1919</fullName>
+                <default>false</default>
+                <label>Prestige_New Retail_New Retail_1919</label>
+            </value>
+            <value>
+                <fullName>Prestige_New Retail_New Retail_7FRESH</fullName>
+                <default>false</default>
+                <label>Prestige_New Retail_New Retail_7FRESH</label>
+            </value>
+            <value>
+                <fullName>Prestige_New Retail_New Retail_COFCO_Direct</fullName>
+                <default>false</default>
+                <label>Prestige_New Retail_New Retail_COFCO_Direct</label>
+            </value>
+            <value>
+                <fullName>Prestige_New Retail_New Retail_HEMA</fullName>
+                <default>false</default>
+                <label>Prestige_New Retail_New Retail_HEMA</label>
+            </value>
+            <value>
+                <fullName>Prestige_New Retail_New Retail_YH</fullName>
+                <default>false</default>
+                <label>Prestige_New Retail_New Retail_YH</label>
+            </value>
+            <value>
+                <fullName>Prestige_Nightclub_PT_Night Club</fullName>
+                <default>false</default>
+                <label>Prestige_Nightclub_PT_Night Club</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_New Retail_JXE</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_New Retail_JXE</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_banner group</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_banner group</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_CARREFOUR</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_CARREFOUR</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_COSTCO_Direct</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_COSTCO_Direct</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_FAMILYMART</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_FAMILYMART</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_IKEA</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_IKEA</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_METRO_Direct</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_METRO_Direct</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_RLKA</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_RLKA</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_RTMART</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_RTMART</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_SAM_Direct</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_SAM_Direct</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_SAM_Indirect</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_SAM_Indirect</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF MOT_OFF MOT_WALMART</fullName>
+                <default>false</default>
+                <label>Prestige_OFF MOT_OFF MOT_WALMART</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF TOT_OFF TOT</fullName>
+                <default>false</default>
+                <label>Prestige_OFF TOT_OFF TOT</label>
+            </value>
+            <value>
+                <fullName>Prestige_OFF TOT_OFF_TOT_KP</fullName>
+                <default>false</default>
+                <label>Prestige_OFF TOT_OFF_TOT_KP</label>
+            </value>
+            <value>
+                <fullName>Prestige-on</fullName>
+                <default>false</default>
+                <label>Prestige-on</label>
+            </value>
+            <value>
+                <fullName>Prestige_Restaurant_PT_Restaurant</fullName>
+                <default>false</default>
+                <label>Prestige_Restaurant_PT_Restaurant</label>
+            </value>
+            <value>
+                <fullName>PRT</fullName>
+                <default>false</default>
+                <label>PRT</label>
+            </value>
+            <value>
+                <fullName>PT_BulkPurchase</fullName>
+                <default>false</default>
+                <label>PT_BulkPurchase</label>
+            </value>
+            <value>
+                <fullName>PT_ON</fullName>
+                <default>false</default>
+                <label>PT_ON</label>
+            </value>
+            <value>
+                <fullName>PT (Prestige-on, TOT)</fullName>
+                <default>false</default>
+                <label>PT (Prestige-on, TOT)</label>
+            </value>
+            <value>
+                <fullName>PT (VIP)</fullName>
+                <default>false</default>
+                <label>PT (VIP)</label>
+            </value>
+            <value>
+                <fullName>Restaurant</fullName>
+                <default>false</default>
+                <label>Restaurant</label>
+            </value>
+            <value>
+                <fullName>Retail_Drinks &amp; Co._Drinks &amp; Co._Offline</fullName>
+                <default>false</default>
+                <label>Retail_Drinks &amp; Co._Drinks &amp; Co._Offline</label>
+            </value>
+            <value>
+                <fullName>Retail_Drinks &amp; Co._Drinks &amp; Co._Offline_POP</fullName>
+                <default>false</default>
+                <label>Retail_Drinks &amp; Co._Drinks &amp; Co._Offline_POP</label>
+            </value>
+            <value>
+                <fullName>Retail_Drinks &amp; Co._Drinks &amp; Co._Online</fullName>
+                <default>false</default>
+                <label>Retail_Drinks &amp; Co._Drinks &amp; Co._Online</label>
+            </value>
+            <value>
+                <fullName>Retail_Drinks &amp; Co._MTL_Offline</fullName>
+                <default>false</default>
+                <label>Retail_Drinks &amp; Co._MTL_Offline</label>
+            </value>
+            <value>
+                <fullName>Retail_Drinks &amp; Co._MTL_Online</fullName>
+                <default>false</default>
+                <label>Retail_Drinks &amp; Co._MTL_Online</label>
+            </value>
+            <value>
+                <fullName>Retail_Drinks &amp; Co._PJ_Online</fullName>
+                <default>false</default>
+                <label>Retail_Drinks &amp; Co._PJ_Online</label>
+            </value>
+            <value>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+                <label>Retailer</label>
+            </value>
+            <value>
+                <fullName>RTM</fullName>
+                <default>false</default>
+                <label>RTM</label>
+            </value>
+            <value>
+                <fullName>SCA_MK1</fullName>
+                <default>false</default>
+                <label>SCA_MK1</label>
+            </value>
+            <value>
+                <fullName>SCA_MK2</fullName>
+                <default>false</default>
+                <label>SCA_MK2</label>
+            </value>
+            <value>
+                <fullName>SCA_MK3</fullName>
+                <default>false</default>
+                <label>SCA_MK3</label>
+            </value>
+            <value>
+                <fullName>SCA_MKT</fullName>
+                <default>false</default>
+                <label>SCA_MKT</label>
+            </value>
+            <value>
+                <fullName>SCA_OP</fullName>
+                <default>false</default>
+                <label>SCA_OP</label>
+            </value>
+            <value>
+                <fullName>SCA_TMKT</fullName>
+                <default>false</default>
+                <label>SCA_TMKT</label>
+            </value>
+            <value>
+                <fullName>Subwholesaler</fullName>
+                <default>false</default>
+                <label>Subwholesaler</label>
+            </value>
+            <value>
+                <fullName>Supermarket</fullName>
+                <default>false</default>
+                <label>Supermarket</label>
+            </value>
+            <value>
+                <fullName>The Lab WS-The Lab 批发商</fullName>
+                <default>false</default>
+                <label>The Lab WS-The Lab 批发商</label>
+            </value>
+            <value>
+                <fullName>TOT</fullName>
+                <default>false</default>
+                <label>TOT</label>
+            </value>
+            <value>
+                <fullName>TOT KP</fullName>
+                <default>false</default>
+                <label>TOT KP</label>
+            </value>
+            <value>
+                <fullName>TOT (酒店)</fullName>
+                <default>false</default>
+                <label>TOT (酒店)</label>
+            </value>
+            <value>
+                <fullName>Traditional</fullName>
+                <default>false</default>
+                <label>Traditional</label>
+            </value>
+            <value>
+                <fullName>Traditional Retailer</fullName>
+                <default>false</default>
+                <label>Traditional Retailer</label>
+            </value>
+            <value>
+                <fullName>VIP</fullName>
+                <default>false</default>
+                <label>VIP</label>
+            </value>
+            <value>
+                <fullName>VIP_BulkPurchase_VIP/BulkPurchase_Indirect</fullName>
+                <default>false</default>
+                <label>VIP_BulkPurchase_VIP/BulkPurchase_Indirect</label>
+            </value>
+            <value>
+                <fullName>VIP_BulkPurchase_VIP/BulkPurchase_LeCircle_Direct</fullName>
+                <default>false</default>
+                <label>VIP_BulkPurchase_VIP/BulkPurchase_LeCircle_Direct</label>
+            </value>
+            <value>
+                <fullName>VIP_BulkPurchase_VIP/Bulkpurchase_LeCircle_Online</fullName>
+                <default>false</default>
+                <label>VIP_BulkPurchase_VIP/Bulkpurchase_LeCircle_Online</label>
+            </value>
+            <value>
+                <fullName>WD</fullName>
+                <default>false</default>
+                <label>WD</label>
+            </value>
+            <value>
+                <fullName>Western Restaurant</fullName>
+                <default>false</default>
+                <label>Western Restaurant</label>
+            </value>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Wholesalers</fullName>
+                <default>false</default>
+                <label>Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Wholesalers B &amp; C</fullName>
+                <default>false</default>
+                <label>Wholesalers B &amp; C</label>
+            </value>
+            <value>
+                <fullName>Wine Shop</fullName>
+                <default>false</default>
+                <label>Wine Shop</label>
+            </value>
+            <value>
+                <fullName>WS</fullName>
+                <default>false</default>
+                <label>WS</label>
+            </value>
+            <value>
+                <fullName>夜店 Night Club</fullName>
+                <default>false</default>
+                <label>夜店 Night Club</label>
+            </value>
+            <value>
+                <fullName>传统渠道-KTV</fullName>
+                <default>false</default>
+                <label>传统渠道-KTV</label>
+            </value>
+            <value>
+                <fullName>传统渠道-酒吧</fullName>
+                <default>false</default>
+                <label>传统渠道-酒吧</label>
+            </value>
+            <value>
+                <fullName>传统渠道-量贩式KTV</fullName>
+                <default>false</default>
+                <label>传统渠道-量贩式KTV</label>
+            </value>
+            <value>
+                <fullName>传统通路 TOT(bulk purchase/VIP included)</fullName>
+                <default>false</default>
+                <label>传统通路 TOT(bulk purchase/VIP included)</label>
+            </value>
+            <value>
+                <fullName>新兴渠道-KTV</fullName>
+                <default>false</default>
+                <label>新兴渠道-KTV</label>
+            </value>
+            <value>
+                <fullName>新兴渠道-酒吧</fullName>
+                <default>false</default>
+                <label>新兴渠道-酒吧</label>
+            </value>
+            <value>
+                <fullName>新兴渠道-量贩式KTV</fullName>
+                <default>false</default>
+                <label>新兴渠道-量贩式KTV</label>
+            </value>
+            <value>
+                <fullName>活动支持 Activation</fullName>
+                <default>false</default>
+                <label>活动支持 Activation</label>
+            </value>
+            <value>
+                <fullName>电子商务 EC</fullName>
+                <default>false</default>
+                <label>电子商务 EC</label>
+            </value>
+            <value>
+                <fullName>酒店 Hotel</fullName>
+                <default>false</default>
+                <label>酒店 Hotel</label>
+            </value>
+            <value>
+                <fullName>餐厅 Restaurant</fullName>
+                <default>false</default>
+                <label>餐厅 Restaurant</label>
+            </value>
+            <value>
+                <fullName>现代通路 MOT</fullName>
+                <default>false</default>
+                <label>现代通路 MOT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

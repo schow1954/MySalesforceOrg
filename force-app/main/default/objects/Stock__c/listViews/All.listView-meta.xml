@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Abbreviation__c</columns>
+    <columns>Market_Ratio__c</columns>
+    <columns>Asset_Value__c</columns>
+    <columns>Net_Profit__c</columns>
+    <columns>Profit_Unit__c</columns>
+    <columns>Revenue__c</columns>
+    <columns>Debt_Ratio__c</columns>
+    <columns>Total_Capital__c</columns>
+    <columns>Totalmv__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

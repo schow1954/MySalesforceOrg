@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>File_Type_Equal_to_Contract</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( 
+ISPICKVAL( Files_Type__c , &apos;合同&apos;), 
+OR( 
+ISPICKVAL( Contract_Type__c ,&apos;&apos;), 
+ISPICKVAL( Contract_Types__c , &apos;&apos;) 
+) 
+)</errorConditionFormula>
+    <errorMessage>文件类型等于合同时，合同类型与合同分类必填</errorMessage>
+</ValidationRule>

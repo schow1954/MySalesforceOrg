@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fixed_Capital_del__c</fullName>
+    <externalId>false</externalId>
+    <label>资产概况</label>
+    <referenceTo>Fixed_Capital__c</referenceTo>
+    <relationshipLabel>买入/卖出</relationshipLabel>
+    <relationshipName>Buy_Sell_del</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

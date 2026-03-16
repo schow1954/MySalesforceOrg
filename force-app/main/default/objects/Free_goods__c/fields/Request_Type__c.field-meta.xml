@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Consumer A&amp;P</fullName>
+                <default>false</default>
+                <label>Consumer A&amp;P</label>
+            </value>
+            <value>
+                <fullName>Trade A&amp;P</fullName>
+                <default>false</default>
+                <label>Trade A&amp;P</label>
+            </value>
+            <value>
+                <fullName>Structure Cost</fullName>
+                <default>false</default>
+                <label>Structure Cost</label>
+            </value>
+            <value>
+                <fullName>OIE</fullName>
+                <default>false</default>
+                <label>OIE</label>
+            </value>
+            <value>
+                <fullName>Duty Free</fullName>
+                <default>false</default>
+                <label>Duty Free</label>
+            </value>
+            <value>
+                <fullName>Logistic Cost</fullName>
+                <default>false</default>
+                <label>Logistic Cost</label>
+            </value>
+            <value>
+                <fullName>Trade A&amp;D</fullName>
+                <default>false</default>
+                <label>Trade A&amp;D</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
