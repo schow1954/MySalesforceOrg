@@ -1,0 +1,44 @@
+name: Salesforce CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  salesforce-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Salesforce CLI
+        run: |
+          npm install @salesforce/cli --global
+
+      - name: Verify Salesforce CLI
+        run: sf --version
+
+      - name: Authenticate Salesforce Org
+        run: |
+          echo "${{ secrets.SF_AUTH_URL }}" > auth.txt
+          sf org login sfdx-url --sfdx-url-file auth.txt --alias ci-org
+
+      - name: Deploy Metadata
+        run: |
+          sf project deploy start \
+          --source-dir force-app \
+          --target-org ci-org \
+          --wait 10
+
+      - name: Run Apex Tests
+        run: |
+          sf apex run test \
+          --target-org ci-org \
+          --result-format human \
+          --wait 10
