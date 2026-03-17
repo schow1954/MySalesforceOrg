@@ -2,7 +2,7 @@ public with sharing class Emailvalidationclass {
 
     public static Boolean validateEmail(String Email) {
 
-     
+       //test CI/CD 2026-3-17
         if (String.isBlank(email)) {
             return false;
         }
