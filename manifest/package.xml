@@ -18,6 +18,11 @@
 
     <types>
         <members>*</members>
+        <name>ApexPage</name>
+    </types>
+
+    <types>
+        <members>*</members>
         <name>CustomObject</name>
     </types>
 

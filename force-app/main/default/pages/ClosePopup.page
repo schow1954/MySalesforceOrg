@@ -1,0 +1,7 @@
+<apex:page showHeader="false" sidebar="false">
+    <script>
+        if (window.opener) { window.opener.location.reload(); }
+        window.close();
+    </script>
+    <p>Update successful. This window will close automatically.</p>
+</apex:page>

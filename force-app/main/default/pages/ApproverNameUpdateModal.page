@@ -1,0 +1,14 @@
+<apex:page standardController="approver_conf__c" extensions="ApproverConfUpdateController" showHeader="false" sidebar="false" standardStylesheets="true">
+    <apex:form id="theForm">
+        <apex:pageBlock title="Update approver Name" id="block">
+            <apex:pageMessages id="msgs" />
+            <apex:pageBlockSection columns="1">
+                <apex:inputText value="{!approverName}" label="approver Name" required="true" html-placeholder="Enter approver Name" style="width:100%;" />
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="Confirm" action="{!save}" rerender="msgs,block" />
+                <apex:commandButton value="Cancel" action="{!cancel}" immediate="true" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -161,4 +161,14 @@
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Update_Approver_Name</fullName>
+        <availability>online</availability>
+        <description>Open popup to update approver Name</description>
+        <displayType>button</displayType>
+        <linkType>url</linkType>
+        <masterLabel>Update approver Name</masterLabel>
+        <openType>newWindow</openType>
+        <url>javascript:window.open(&apos;/apex/ApproverNameUpdateModal?id={!approver_conf__c.Id}&apos;,&apos;approverUpdate&apos;,&apos;width=450,height=350,scrollbars=yes,resizable=yes&apos;);</url>
+    </webLinks>
 </CustomObject>
