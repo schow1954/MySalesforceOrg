@@ -1,5 +1,6 @@
 public with sharing class Emailvalidationclass {
 
+    //this is a test from Sam, update the class and sync to github
     public static Boolean validateEmail(String Email) {
         String email = (Email == null) ? null : Email.trim();
         if (String.isBlank(email)) {
