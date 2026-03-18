@@ -1,8 +1,7 @@
 public with sharing class Emailvalidationclass {
 
     public static Boolean validateEmail(String Email) {
-
-       //test CI/CD 2026-3-17,二次添加测试
+        String email = (Email == null) ? null : Email.trim();
         if (String.isBlank(email)) {
             return false;
         }
